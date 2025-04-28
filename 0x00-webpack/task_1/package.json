@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=development --entry ./src/index.js --output-path ./dist --output-filename main.js",
-    "build": "webpack --mode=development --entry ./js/dashboard_main.js --output-path ./public --output-filename bundle.js"
+    "build:dashboard": "webpack --mode=development --entry ./js/dashboard_main.js --output-path ./public --output-filename bundle.js"
   },
   "keywords": [],
   "author": "",

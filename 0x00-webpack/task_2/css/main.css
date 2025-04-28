@@ -11,4 +11,7 @@ button {
 #logo {
     width: 200px;
     height: 200px;
-}
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/holberton-logo.png);
+}  
